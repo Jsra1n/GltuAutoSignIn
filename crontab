@@ -1,0 +1,58 @@
+SHELL=/bin/bash
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+MAILTO=root
+
+# For details see man 4 crontabs
+
+# Example of job definition:
+# .---------------- minute (0 - 59)
+# |  .------------- hour (0 - 23)
+# |  |  .---------- day of month (1 - 31)
+# |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
+# |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
+# |  |  |  |  |
+# *  *  *  *  * user-name  command to be executed
+# 将当前时间写入到log文件,一小时执行一次
+10 8 * * * root qd
+13 8 * * * root qd
+
+55 8 * * * root qd
+58 8 * * * root qd
+
+40 9 * * * root qd
+43 9 * * * root qd
+
+30 10 * * * root qd
+33 10 * * * root qd
+
+20 11 * * * root qd
+23 11 * * * root qd
+
+50 13 * * * root qd
+53 13 * * * root qd
+
+45 14 * * * root qd
+48 14 * * * root qd
+
+25 15 * * * root qd
+28 15 * * * root qd
+
+15 16 * * * root qd
+18 16 * * * root qd
+
+20 18 * * * root qd
+23 18 * * * root qd
+
+10 19 * * * root qd
+13 19 * * * root qd
+
+55 19 * * * root qd
+58 19 * * * root qd
+
+45 20 * * * root qd
+48 20 * * * root qd
+
+
+
+
+

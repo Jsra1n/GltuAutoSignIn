@@ -1,0 +1,6 @@
+#!/usr/bin/sh
+cd /home/dwz/zdqd
+python3 qd.py
+
+
+
